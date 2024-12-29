@@ -16,3 +16,11 @@
   font-weight: $fontWeight;
   color: $secondaryColor;
 }
+
+@mixin linkHover($property, $duration, $timeFunction) {
+  transition: $property $duration $timeFunction;
+  -webkit-transition: $property $duration $timeFunction;
+  -moz-transition: $property $duration $timeFunction;
+  -ms-transition: $property $duration $timeFunction;
+  -o-transition: $property $duration $timeFunction;
+}

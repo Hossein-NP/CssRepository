@@ -33,15 +33,14 @@ header {
   nav {
     order: 2;
   }
-  }
   ul {
     display: flex;
     order: 2;
     list-style: none;
     a {
       padding: 0.8rem;
-      @include textStyle(1.6rem, bold, $secondaryColor);
-
+      @include textStyle(1.6rem,bold,$secondaryColor);
+      @include linkHover(all,200ms,ease-in-out);
       &:hover {
         color: $textColor;
       }
@@ -61,4 +60,5 @@ header {
       width: 3rem;
       height: 3rem;
     }
+  }
 }
