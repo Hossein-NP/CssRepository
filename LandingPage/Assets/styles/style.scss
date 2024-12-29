@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixin.scss";
+
+* {
+  @include overal;
+}
+
+body {
+  background-color: $bgColor;
+}
+
+header {
+  background-color: $primaryColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+
+  .logo-name {
+    
+  }
+}
