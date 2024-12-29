@@ -3,3 +3,9 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@mixin textStyle($fontSize, $fontWeight, $secondaryColor) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $secondaryColor;
+}

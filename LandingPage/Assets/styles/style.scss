@@ -16,7 +16,26 @@ header {
   align-items: center;
   padding: 1rem 3rem;
 
-  .logo-name {
-    
+  h1 {
+    @include textStyle(1.3rem, bold, $secondaryColor)
   }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  .logo-img {
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    img {
+      display: block;
+    }
+}
 }
