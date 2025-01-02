@@ -73,8 +73,8 @@ h1 {
 
 h2 {
   font-size: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .est {
@@ -89,6 +89,11 @@ img {
   margin-right: auto;
 }
 
+.items {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
 .items p {
   display: inline-block;
 }
@@ -100,5 +105,44 @@ img {
 
 .price {
   width: 25%;
-  text-align: left;
+  text-align: right;
+}
+
+hr {
+  background-color: brown;
+  border-color: brown;
+  border-width: 1px;
+  height: 2px;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER  */
+
+footer  {
+  font-size: 14px;
+}
+
+footer .website {
+  margin-top: 20px;
+  margin-bottom: 15px;;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: brown;
+}
+
+a:hover {
+  color: brown;
 }
