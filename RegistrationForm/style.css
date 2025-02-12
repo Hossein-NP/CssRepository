@@ -119,7 +119,7 @@ input::placeholder {
 	font-size: 1.5rem;
 }
 
-input[type="text"] , input[type="email"] , input[type="number"] , select {
+input[type="text"] , input[type="email"] , input[type="number"] , select , textarea {
 	padding: 0 0 0 1rem;
 }
 
@@ -136,4 +136,17 @@ input[type="radio"] , input[type="checkbox"] {
 
 .field-1 > label , .field-3 > label {
 	display: block;
+}
+
+input[type="submit"] {
+	margin: 0 auto;
+	background-color: transparent;
+	color: #f3f3f3;
+	cursor: pointer;
+	border: 1px solid #f3f3f3;
+}
+
+select option:disabled {
+  color: gray; 
+  font-style: italic; 
 }
