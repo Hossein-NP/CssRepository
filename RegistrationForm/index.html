@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="title-container">
-       <h1 id="title">freeCodeCamp Survey Form</h1>
+       <marquee direction="right" id="title">freeCodeCamp Survey Form</marquee>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
     </div>
     <form id="survey-form" action="" method="post">
@@ -30,11 +30,11 @@
           <option value="">Other</option>
         </select>
       </fieldset>
-      <fieldset>
+      <fieldset class="field-1">
           <legend>Would you recommend freeCodeCamp to a friend?</legend>
-          <label for="recommend-1" id="recommend-label"><input type="radio" name="recommend" id="recommend-1" checked  value="definitely"> Definitely</label>
-          <label for="recommend-2" id="recommend-label"><input type="radio" name="recommend" id="recommend-2"  value="maybe"> Maybe</label>
-          <label for="recommend-3" id="recommend-label"><input type="radio" name="recommend" id="recommend-3" value="not sure"> Not sure</label>
+          <label for="recommend" id="recommend-label"><input type="radio" class="inline" name="recommend" id="recommend-1" checked  value="definitely"> Definitely</label>
+          <label for="recommend" id="recommend-label"><input type="radio" class="inline" name="recommend" id="recommend-2"  value="maybe"> Maybe</label>
+          <label for="recommend" id="recommend-label"><input type="radio" class="inline" name="recommend" id="recommend-3" value="not sure"> Not sure</label>
       </fieldset>
       <fieldset>
         <legend>What is your favorite feature of freeCodeCamp?</legend>
@@ -46,7 +46,7 @@
           <option value="open source">Open source</option>
         </select>
       </fieldset>
-      <fieldset>
+      <fieldset class="field-3">
         <legend>What would you like to see improved? (Check all that apply)</legend>
         <label for="Front-end Projects" id=""><input type="checkbox" id="Front-end Projects" value="frontend"/> Front-end Projects</label>
         <label for="Back-end Projects" id=""><input type="checkbox" id="Back-end Projects" value="backend"/> Back-end Projects</label>
