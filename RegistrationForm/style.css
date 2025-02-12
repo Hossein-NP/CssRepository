@@ -104,7 +104,12 @@ body {
 }
 
 fieldset {
+	margin: 1rem 0;
 	padding: 2rem 0;
+	border-bottom: 2px solid rgba(27, 27, 50, 1);
+}
+fieldset:last-of-type {
+	border: none;
 }
 
 input , textarea , select {
