@@ -1,9 +1,9 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 62.5%; /* معادل 10px برای راحتی در تنظیم اندازه فونت‌ها */
 }
 
-* , *::after , *::before {
+*, *::after, *::before {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
@@ -17,31 +17,35 @@ body {
   width: 90%;
   min-width: 350px;
   max-width: 1400px;
-  display: flex;
   padding: 50px;
+  display: flex;
   margin: 50px auto;
   flex-direction: row;
   overflow: hidden;
+  column-gap: 20px;
 }
 
-.leftside_section {
+.leftside_section h1 {
+  width: 100%;
+  height: 100vh; /* ارتفاع صفحه */
   background-color: #0a0a23;
   color: #fff;
   padding: 20px;
-  writing-mode:vertical-lr;
-  v-webkit-writing-mode:vertical-lr;
-  -ms-writing-mode:vertical-lr;
-  -webkit-writing-mode:vertical-lr;
-  font-size: 20px;
-  letter-spacing: 90px;
+  writing-mode: vertical-lr; /* تراز عمودی متن */
+  font-size: 2rem; /* تنظیم اندازه فونت */
+  letter-spacing: 5px; /* کاهش فاصله بین حروف */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* مرکز کردن افقی */
+  align-items: center; /* مرکز کردن عمودی */
   border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .gallery .rightside_section {
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+  justify-content: flex-start; /* تراز کردن تصاویر در سمت چپ */
 }
 
 .gallery .rightside_section img {
@@ -50,8 +54,4 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
