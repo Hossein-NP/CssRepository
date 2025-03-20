@@ -45,6 +45,10 @@ p {
   border: 0;
 }
 
+.calories-info h2 {
+  margin: 0;
+}
+
 .small-text {
   font-size: 0.85rem;
 }
