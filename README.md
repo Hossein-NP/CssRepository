@@ -21,7 +21,7 @@ Welcome to my CSS repository! This repository contains various CSS snippets, com
 ## 🚀 Getting Started
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Hossein-NP/your-css-repo.git
+   git clone https://github.com/Hossein-NP/CssRepository.git
    ```
 2. Link the CSS file in your HTML project:
    ```html
