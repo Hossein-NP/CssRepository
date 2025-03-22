@@ -15,6 +15,7 @@ Welcome to my CSS repository! This repository contains various CSS snippets, com
   ├── layouts/         # Page layouts and grid systems
   ├── utilities/       # Utility classes and mixins
   ├── themes/          # Theming and custom styles
+  ├── freecodecamp/    # Projects from FreeCodeCamp exercises
   ├── index.css        # Main CSS file
 ```
 
