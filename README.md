@@ -11,6 +11,7 @@ Welcome to my CSS repository! This repository contains various CSS snippets, com
 ## 📂 Project Structure
 ```
 /css
+  ├── reset css/       # Resetting default browser styles
   ├── components/      # Reusable UI components
   ├── layouts/         # Page layouts and grid systems
   ├── utilities/       # Utility classes and mixins
