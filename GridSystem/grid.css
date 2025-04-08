@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 62.5%;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -17,3 +17,59 @@ body {
   background-color: #f0f0f0;
 }
 
+.container {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid System */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.col {
+  max-width: 100%;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.content {
+  background-color: aqua;
+  height: 10rem;
+}
+
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
