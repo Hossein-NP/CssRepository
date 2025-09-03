@@ -1,0 +1,66 @@
+ /* VARIABLES  */
+:root {
+  --fs-size: 3em;
+  --animation-color: #37FF8B;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --border-right: 6px;
+}
+
+/* BODY STYLE  */
+body {
+  background-color: #212121;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* *** REMOVING DEFAULT BUTTON STYLE ***  */
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  height: auto;
+}
+
+/* *** BUTTON STYLE ***  */
+.button {
+  font-size: var(--fs-size);
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+  color: transparent;
+  text-decoration: none; /* ** */
+  position: relative;
+}
+
+/* THIS IS THE TEXT, WHEN YOU HOVER THE BUTTON  */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  width: 0%;
+  inset: 0;
+  color: var(--animation-color);
+  border-right: var(--border-right) solid var(--animation-color);
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  overflow: hidden;
+}
+
+/* HOVER  */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+  -webkit-filter: drop-shadow(0 0 23px var(--animation-color));
+}
